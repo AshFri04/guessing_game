@@ -4,7 +4,6 @@ def number_guessing_game():
     print "Hi! Welcome to the Guessing Game!!"
     name = raw_input("What is your name? ")
     secret_number = random.randint(1, 100)
-    print "Secret number:", secret_number
     guess = 0
     count = 0
     while(guess != secret_number):
